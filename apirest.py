@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import confusion_matrix
+
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
