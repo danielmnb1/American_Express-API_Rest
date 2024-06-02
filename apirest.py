@@ -111,7 +111,7 @@ def predict():
 
 @app.route('/')
 def hello():
-    return jsonify({'message': 'Hola Mundo'})
+    return jsonify({'message': 'Hola American express'})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)
